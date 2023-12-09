@@ -1,0 +1,11 @@
+{
+    "macros": [
+        "MBED_TRACE_MAX_LEVEL=TRACE_LEVEL_INFO"
+        
+    ],
+        "target_overrides": {
+        "*": {
+            "target.printf_lib": "std"
+        }
+    }
+}
